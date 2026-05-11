@@ -216,3 +216,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# PyTorch/Python stuff
+__pycache__/
+*.pth
+*.pt
+.ipynb_checkpoints/
+
+# Datasets (IMPORTANT: do not upload large training data)
+*.csv
+*.zip
+train/
+test/
+data/
+
+# Environments
+env/
+venv/
+.env
+
+*.png
+*.jpg
+*.pth
+*.pt
