@@ -24,6 +24,11 @@ This repository contains a series of projects developed during the Artificial Ne
 * **Goal:** Generate synthetic traffic signs using GANs.
 * **Metric:** Evaluated using Frechet Inception Distance (FID).
 
+### [05. Classical Composer RNN](./05-Classical-Composer-RNN/)
+* **Type:** Sequence Classification (RNN/LSTM/GRU)
+* **Goal:** Predict the composer of a classical piece based on its sequence of chords.
+* **Challenge:** Handling variable-length sequences using padding and sequence packing in PyTorch.
+
 ---
 ## Tech Stack
 * **Language:** Python
