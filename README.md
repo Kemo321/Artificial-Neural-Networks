@@ -29,6 +29,12 @@ This repository contains a series of projects developed during the Artificial Ne
 * **Goal:** Predict the composer of a classical piece based on its sequence of chords.
 * **Challenge:** Handling variable-length sequences using padding and sequence packing in PyTorch.
 
+### [06. Hate Speech Classification](./06-Hate-Speech-Classification/)
+* **Type:** NLP (Text Classification)
+* **Goal:** Detect hate/offensive speech in Polish-language comments.
+* **Model:** HerBERT (`allegro/herbert-base-cased`) fine-tuned for sequence classification.
+* **Pipeline:** Tokenization (`HerbertTokenizer`), transformer fine-tuning (Cross-Entropy), inference on unlabeled test data.
+
 ---
 ## Tech Stack
 * **Language:** Python
